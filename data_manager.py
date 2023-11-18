@@ -7,7 +7,12 @@ df = df.drop(columns=["url","brand","valuePackage","basePrice","price","img","co
 
 df['query_text'] = df.apply(lambda row: '/'.join(map(str, row)), axis=1)
 
-print(df.shape[0])
+random_rows = df.sample(n=10)
+
+for i,r in zip(random_rows.index,random_rows["query_text"]):
+    print(i,r)
+
+
 '''print(
     {
         "id": df.index[0],
