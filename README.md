@@ -6,5 +6,5 @@ Just set in **query.py**:
 - path/to/source.csv
 - path/to/results.csv
 - \# of chunks to divide the set
-  
+- refine the prompt to your need
 and run it.
