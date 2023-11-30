@@ -1,4 +1,4 @@
-# labeling_with_GPT
+# Labeling with GPT
 Python tool for labeling grocery products with OpenAI's GPT models.
 
 Just set in **query.py**:
