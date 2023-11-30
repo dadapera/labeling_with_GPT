@@ -1,9 +1,7 @@
 import pandas as pd
 
 def load_data(file_path, chunk_size):
-
     csv_reader = pd.read_csv(file_path, sep=";", chunksize=chunk_size)
-
     return csv_reader
     
 
