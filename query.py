@@ -9,7 +9,7 @@ import os
 load_dotenv()
 client = OpenAI()
 
-system_prompt = get_prompt()
+system_prompt = get_prompt(1)
 
 source_csv = "data/source_set.csv"
 result_csv = "data/result_set12.csv"
